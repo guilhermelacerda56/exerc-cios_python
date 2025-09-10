@@ -1,0 +1,11 @@
+t = int(input("Digite a quantidade de cliques no 3° link: "))
+
+# Calcula os cliques no segundo link (dobro do terceiro)
+segundo_link = 2 * t
+primeiro_link = 2 * segundo_link  # ou 4 * t
+
+# Mostra os resultados
+print("Cliques no 3º link:", t)
+print("Cliques no 2º link:", segundo_link)
+print("Cliques no 1º link:", primeiro_link)
+
